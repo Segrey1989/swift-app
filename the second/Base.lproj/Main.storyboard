@@ -26,9 +26,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSW-ma-1vO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Push me"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="170" y="69" width="60" height="30"/>
-                                </variation>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="19r-IC-o7c"/>
                                 </connections>
@@ -60,13 +57,13 @@
                                 <exclude reference="WSW-ma-1vO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="G7i-oo-nsH"/>
-                                <exclude reference="fUd-xm-nA8"/>
                                 <exclude reference="4Um-gI-nhM"/>
                                 <exclude reference="Dm1-tj-H8c"/>
                                 <exclude reference="RSI-jk-QFe"/>
                                 <exclude reference="mTO-Q6-cYE"/>
                                 <exclude reference="mXP-fH-RNX"/>
+                                <exclude reference="G7i-oo-nsH"/>
+                                <exclude reference="fUd-xm-nA8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -75,13 +72,13 @@
                                 <include reference="WSW-ma-1vO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="G7i-oo-nsH"/>
-                                <include reference="fUd-xm-nA8"/>
                                 <include reference="4Um-gI-nhM"/>
                                 <exclude reference="Dm1-tj-H8c"/>
                                 <include reference="RSI-jk-QFe"/>
                                 <exclude reference="mTO-Q6-cYE"/>
                                 <include reference="mXP-fH-RNX"/>
+                                <include reference="G7i-oo-nsH"/>
+                                <include reference="fUd-xm-nA8"/>
                             </mask>
                         </variation>
                     </view>
